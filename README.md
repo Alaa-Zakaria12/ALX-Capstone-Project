@@ -21,4 +21,4 @@ The Movie Database project allows users to search for movies, view details about
 ### Steps to Set Up the Project
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ALX-Capstone-Project.git
+   git clone https://github.com/Alaa-Zakaria12/ALX-Capstone-Project.git

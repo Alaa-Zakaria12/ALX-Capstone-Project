@@ -1,8 +1,24 @@
-# React + Vite
+# Movie Database Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+The Movie Database project allows users to search for movies, view details about them, and explore various movie data like titles, descriptions, release dates, and ratings. This project is designed to help improve my skills in React, API integration, and building responsive web applications.
 
-Currently, two official plugins are available:
+## Features
+- Search for movies by title, genre, or other criteria.
+- View detailed information about each movie, including title, overview, release date, and ratings.
+- Display movie posters and high-quality images.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## API Used
+- **Primary API**: The Movie Database (TMDb) - Provides detailed movie data including descriptions, ratings, and images.
+- **Backup API**: OMDb - A secondary API that will be used if TMDb is unavailable. It offers similar movie information.
+
+## Project Setup
+
+### Requirements
+- Node.js
+- npm
+
+### Steps to Set Up the Project
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/ALX-Capstone-Project.git

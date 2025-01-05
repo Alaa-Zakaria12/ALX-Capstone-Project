@@ -1,13 +1,20 @@
-import './App.css'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import HomePage from "./components/Home";
+import MovieDetails from "./components/MovieDetails";
 
-function App() {
 
+const App = () => {
   return (
-    <>
-      <h1>Movie-database</h1>
-      <h2>ALX-Capstone-Project</h2>
-    </>
-  )
-}
+    <Router>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/:type/:id" element={<MovieDetails />} />
+        </Routes>
+      </Layout>
+    </Router>
+  );
+};
 
-export default App
+export default App;
